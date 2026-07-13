@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
 
   return (
@@ -37,35 +38,39 @@ export default function Home() {
         Smarter conversations. Faster answers.
 
       </p>
+<a
 
-      <button
+  href="/chat"
 
-        style={{
+  style={{
 
-          marginTop: "30px",
+    display: "inline-block",
 
-          padding: "15px 35px",
+    marginTop: "30px",
 
-          fontSize: "20px",
+    padding: "15px 35px",
 
-          borderRadius: "12px",
+    fontSize: "20px",
 
-          border: "none",
+    borderRadius: "12px",
 
-          background: "#2563eb",
+    border: "none",
 
-          color: "white",
+    background: "#2563eb",
 
-          cursor: "pointer",
+    color: "white",
 
-        }}
+    cursor: "pointer",
 
-      >
+    textDecoration: "none",
 
-        Start Chatting
+  }}
 
-      </button>
+>
 
+  Start Chatting
+
+</a>
     </main>
 
   );
